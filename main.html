@@ -16,13 +16,14 @@
         <div class="col">
 		  <label for="first-name-input">First Name</label>
           <input type="text" id="first-name-input" class="form-control"  aria-label="First name" required>
-        </div>
+           <span class="error-message" id="errorMessage">invalid feedback text.</span>
+		</div>
         <div class="col">
 		   <label for="last-name-input">Last Name</label>
           <input type="text"  id="last-name-input" class="form-control"  aria-label="Last name" required>
        </div>
 		<div class="col">
-		   <label for="email-input">Email</label>
+		   <label for="email-input">Email Address</label>
            <input type="email" id="email-input" class="form-control"  placeholder="xyz@abc.com" aria-label="email" required>
        </div>
      </div>
@@ -32,8 +33,8 @@
              <input type="text" id="college-input" class="form-control" id="inputCollege" required>
          </div>
         <div class="col">
-            <label for="inputState" class="form-label">Graduation Year</label>
-            <select id="inputState" class="form-select" required>
+            <label for="grad-year-select" class="form-label">Graduation Year</label>
+            <select id="grad-year-select" class="form-select"required>
                 <option selected>Choose...</option>
                 <option>2020</option>
 				<option>2021</option>
