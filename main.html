@@ -13,7 +13,7 @@
 	<div class="container">
 	<form class="form-label" id="intership-form">
 	      <label for="first-name-input">First Name:</label>
-          <input type="text" id="first-name-input" class="form-control" aria-label="First name" required>
+          <input type="text" id="first-name-input" class="form-label" aria-label="First name" required>
           <span class="invalid-feedback" id="first-name-error"></span>
 		  <label for="last-name-input">Last Name</label>
           <input type="text"  id="last-name-input" class="form-control"  aria-label="Last name" required>
@@ -38,9 +38,9 @@
          <span id="roll-no-error" class="invalid-feedback"></span>
          <label class="form-check-label" for="conditions-checkbox">
          <input class="form-check-input" type="checkbox" id="conditions-checkbox" required>
+		 <span id="checkbox-error" class="invalid-feedback"></span>
           Agree to terms and conditions
-          </label>
-		 <span id="checkbox-error" class="invalid-feedback"></span><br>
+          </label><br>
          <button type="submit" class="btn btn-primary">Submit form</button>
    	 </form>
    </div>
